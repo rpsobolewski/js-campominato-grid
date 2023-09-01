@@ -1,0 +1,38 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    background-color: orangered;
+    
+}
+body{
+    width: 52%;
+    margin: auto;
+}
+
+button{
+    padding: 10px;
+    border-radius: 5px;
+    background-color: plum;
+    font-weight: bold;
+    font-size: large;
+    margin: 7px 0;
+    margin-left: 41%;
+}
+ul{
+    list-style: none;
+}
+
+li{
+    display: inline-block;
+    aspect-ratio: 1;
+    width: 90px;
+    
+    background-color: blueviolet;
+    text-align: center;
+    padding-top: 35px;
+    border: 1px solid black;
+}
+.none{
+    display: none;
+}
