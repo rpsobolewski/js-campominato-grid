@@ -6,20 +6,32 @@ Quando l'utente clicca su ogni cella, la cella cliccata si colora di azzurro ed 
 const listaEl = document.getElementById('lista');
 
 
-document.querySelector('button').addEventListener('click', function (e){
+document.querySelector('button').addEventListener('click', function (e) {
 
-document.getElementById("tutto").classList.toggle("none");
+    document.getElementById("tutto").classList.toggle("none");
 })
-    for( let i = 1; i <= 100; i++){
-    
-    
-    
+for (let i = 1; i <= 100; i++) {
+
+
+
 
     const itemEl = document.createElement('li')
     itemEl.append(i)
     listaEl.append(itemEl)
-    console.log(i)
+
+
+
+
+    itemEl.addEventListener('click', function () {
+     itemEl.classList.toggle("bg-blue"); 
+     console.log(i)  
+    })
 }
 
+let annulla = document.getElementById('annulla');
 
 
+annulla.addEventListener('click', function () {
+
+    location.reload();
+});

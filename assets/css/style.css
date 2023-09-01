@@ -18,6 +18,7 @@ button{
     font-size: large;
     margin: 7px 0;
     margin-left: 41%;
+    width: 99px;
 }
 ul{
     list-style: none;
@@ -35,4 +36,7 @@ li{
 }
 .none{
     display: none;
+}
+.bg-blue{
+    background-color: lightblue;
 }
