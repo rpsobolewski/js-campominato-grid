@@ -16,7 +16,7 @@ for (let i = 1; i <= 100; i++) {
 
 
     const itemEl = document.createElement('li')
-    itemEl.append(i)
+    itemEl.append(".")
     listaEl.append(itemEl)
 
 
